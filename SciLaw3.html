@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LAW 1</title>
+
+    <style>
+          * {
+
+            box-sizing: border-box;
+
+        }
+
+        .row::after {
+
+            content: "";
+
+            clear: both;
+
+            display: table;
+
+        }
+
+        [class*="col-"] {
+
+           
+           float: left;
+
+            padding: 15px;
+
+        }
+/* For mobile phones: */
+
+@media only screen and (max-width: 767px) {
+
+
+ }
+
+/* For tablets: */      
+
+@media only screen and (min-width: 768px) {
+.col-tablet-6 {
+    width: 50%;}
+
+
+
+  .col-s-1 {width: 8.33%;}
+
+  .col-s-2 {width: 16.66%;}
+
+  .col-s-3 {width: 25%;}
+
+  .col-s-4 {width: 33.33%;}
+
+  .col-s-5 {width: 41.66%;}
+
+  .col-s-6 {width: 50%;}
+
+  .col-s-7 {width: 58.33%;}
+
+  .col-s-8 {width: 66.66%;}
+
+  .col-s-9 {width: 75%;}
+
+  .col-s-10 {width: 83.33%;}
+
+  .col-s-11 {width: 91.66%;}
+
+  .col-s-12 {width: 100%;}
+}
+
+
+/* For PC */ 
+
+@media only screen and (min-width: 1024px) {
+  .col-desktop-4 {
+    width: 33.33%;} 
+
+
+        .col-1 { width: 8.33%; }
+
+        .col-2 { width: 16.66%; }
+
+        .col-3 { width: 25%; }
+
+        .col-4 { width: 33.33%; }
+
+        .col-5 { width: 41.66%; }
+
+        .col-6 { width: 50%; }
+
+        .col-7 { width: 58.33%; }
+
+        .col-8 { width: 66.66%; }
+
+        .col-9 { width: 75%; }
+
+        .col-10 { width: 83.33%; }
+
+        .col-11 { width: 91.66%; }
+
+        .col-12 { width: 100%; }
+     }  
+
+        a:link { text-decoration: none; color: wheat;}
+        a:visited { text-decoration: none; color: black;}
+        a:hover { text-decoration: none; background-color: wheat;}
+        a:active { text-decoration: none; color: wheat;}
+
+        li {float: left; text-decoration: none; padding: 10px; list-style-type: none;
+            background-color: #6ab5ca;
+            color:  wheat;
+            margin-left: -50px;
+            margin-right:10px;
+            font-family: monospace;
+            font-size: 15px;
+            width: 120px;
+            height:35px}
+
+
+
+        img { 
+            width: 100%; height: auto;
+        }
+        body {
+            background-color: #7DBB6C;
+        }
+
+        p {font-size: 20px;}
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <div class="col-desktop-12 col-tablet-12 col-mobile-12 frame">
+        <ul>
+        <li style="text-align: left;"><a href="SciLaw2.html"> ◄ Back</li></a>
+        <li style="text-align: center;"><a href="CompSci_PT.html"> ⌞ Home ⌝</li></a>
+        <li style="text-align: right;"><a href="SciLaw4.html">► Next</li></a>
+    </ul>
+</div>
+
+    <img src="header3.png">
+
+    <div class="col-desktop-4 col-tablet-12 col-mobile-12 frame">
+    <img src="3pic1.png"> 
+</div>
+
+
+    <div class="col-desktop-4 col-tablet-6 col-mobile-12 frame">
+        <img src="3pic2.png">
+        <img src="2pic3.png">
+    <p> - P1: Initial Pressure<br>
+        - T1: Initial Temperature<br>
+        - P2: Final Pressure <br>
+        - T2: Final Temperature
+    <hr>
+</div>
+    
+
+    <div class="col-desktop-4 col-tablet-6 col-mobile-12 frame">
+        <p> - Named after Joseph Louis Gay-Lussac <br>
+- Announced in 1808 <br>
+- The relationship between pressure and temperature is directly proportional if the volume is kept constant. <br> 
+            - An example of Gay-Lussac’s Law is when you heat a pressure cooker, the temperature inside rises. As the temperature increases, the gas molecules inside the cooker move faster and collide with the walls more forcefully, increasing the pressure.<br>
+- Another example of Gay-Lussac’s Law is when you leave a sealed can of spray paint in the sun, the temperature of the gas inside the can rises. According to Gay-Lussac's Law, as the temperature increases, the pressure inside the can also increases. If the pressure becomes too high, the can could potentially burst. This is why it’s important to store pressurized cans in a cool, shaded place.
+ </p> <hr>
+ 
+    </div>
+
+
+
+    <div class="col-desktop-12 col-tablet-12 col-mobile-12 frame">
+
+    <p> 
+<b><u>Example problem: A sealed container with air has an initial pressure of 2.0 atm while the temperature is 20°C. When the temperature drops to 4°C, what is the final pressure inside the jar?</u></b><br>
+Given: <br>
+P1: 2.0 atm<br>
+T1: 20.0°C / 293K<br>
+P2: ? <br>
+T2: 4°C / 277K<br><br>
+Solution:<br>
+20 + 273 = 293 <br>
+4 + 273 = 277 <br>
+P1/T1 = P2/T2<br>
+2/293 = ? / 277 <br>
+(2)(277)/293<br>
+554/293 = 1.89atm <br>
+P2= 1.89atm <br>
+    </p>
+
+
+    </div>
+
+
+
+</body>
+</html>
